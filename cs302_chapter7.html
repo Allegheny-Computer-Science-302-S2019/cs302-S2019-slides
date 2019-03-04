@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Computer Science 103: Web Development</title>
+
+    <meta name="description" content="Teaching Slides for Computer Science 103">
+    <meta name="author" content="Gregory M. Kapfhammer">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night-gkapfham.css" id="theme">
+
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Install Font Awesome and the Google Web fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet" type="text/css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-background-transition="none" data-background="https://farm4.static.flickr.com/3745/13579866943_c3e8493401_z.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>Computer Science 103:</h1>
+          <h2>Web Development</h2>
+          <p>Gregory M. Kapfhammer</p>
+          <br /><small><a title="PangongTso_54" href="https://flickr.com/photos/krsaurabh/13579866943">flickr photo</a> by <a href="https://flickr.com/people/krsaurabh">SaurabhChatterjee</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons (BY-NC-ND) license</a> </small>
+        </section>
+
+        <section data-background-transition="none" data-background="https://farm4.static.flickr.com/3745/13579866943_c3e8493401_z.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>Keep in Touch!</h1>
+          <p class="fragment">Course Web Site</p>
+          <p class="fragment">Office Hours</p>
+          <p class="fragment">Teaching Assistants</p>
+          <p class="fragment">Slack Communication</p>
+          <p class="fragment">Relevant Tweets</p>
+          <p class="fragment">Email Communication</p>
+          <br /><small><a title="PangongTso_54" href="https://flickr.com/photos/krsaurabh/13579866943">flickr photo</a> by <a href="https://flickr.com/people/krsaurabh">SaurabhChatterjee</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons (BY-NC-ND) license</a> </small>
+        </section>
+
+        <section>
+          <h1>Color Scheme</h1>
+          <p class="fragment"><b class="orange">Key Concept</b></p>
+          <p class="fragment"><b class="purple">Corresponding Diagram</b></p>
+          <p class="fragment"><b class="green">In-Class Discussion</b></p>
+          <p class="fragment"><b class="red">In-Class Activity</b></p>
+          <p class="fragment"><b class="blue">Details in the Textbook</b></p>
+        </section>
+
+        <section>
+          <h1><b class="orange">CSS for Layout</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Differences with prior material?</b></h1>
+        </section>
+
+        <section>
+          <h1>Normal Flow</h1>
+          <p class="fragment">Block-level elements</p>
+          <p class="fragment">Inline elements</p>
+          <p class="fragment">Replaced inline elements</p>
+          <p class="fragment">Non-replaced inline elements</p>
+        </section>
+
+        <section>
+          <h1><b class="orange">Block-level: flow top to bottom</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Inline: flow left to right</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Figure 7.3 for an example</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Viewport width</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Why is height less important?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="red">Let's cause web sites to "flow"!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="red">Change the viewport width of your browser</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="red">Complete this task for multiple sites</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">There are extensions to support this process!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">What did you discover?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Positioning HTML Elements</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Relative Positioning</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Absolute Positioning</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Fixed Positioning</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Can you "opt out" of the flow?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Yes, through floating!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange"><code>float: left;</code></b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange"><code>float: right;</code></b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Float in the page</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Float in the container</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Float multiple items</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Overlaying and hiding elements</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Section 7.3.4 for more details</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Now, for the <em>really fun</em> content!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Constructing multiple column layouts</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Two-column layouts with floats</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See 7.22 through 7.25</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">What about absolute positioning?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Elements can 🏃  over other elements!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">How do I manage footers?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Can be too low or too high!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Figure 7.28 for an example</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Wow, this is really hard!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Is there a better solution?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Gee, I am glad that you asked! 😼 </b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Flexible box (flexbox) layout in CSS3</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Generalized and reusable layouts</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">But, consider browser support</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Let's take a step back ...</b></h1>
+        </section>
+
+        <section>
+          <h1>Layout with CSS</h1>
+          <p class="fragment">Fixed layout: width set by designer</p>
+          <p class="fragment">Fluid layout: width set with percentages</p>
+          <p class="fragment">Responsive layout: respond to changes</p>
+          <p class="fragment"><b class="green">How can a page sense viewport width?</b></p>
+        </section>
+
+        <section>
+          <h1><b class="orange">Media Queries</b></h1>
+        </section>
+
+        <section>
+          <h1>Responsive Design</h1>
+          <p class="fragment">Scale down images</p>
+          <p class="fragment">Replace navigation elements</p>
+          <p class="fragment">Abbreviate page contents</p>
+          <p class="fragment"><b class="orange">Respond to viewport width!</b></p>
+        </section>
+
+        <section>
+          <h1><b class="orange"> ☻ Sounds great! ✔ </b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">What are the challenges?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Need to program "conditional logic"</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">If A then B</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">What is A and B for RWD?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">How do you implement conditional logic?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Media Queries!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Responsive CSS frameworks?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Twitter Bootstrap</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Zurb Foundation</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">What does a framework provide?</b></h1>
+        </section>
+
+        <section>
+          <h1>Responsive Design Frameworks</h1>
+          <p class="fragment">Pre-defined media queries</p>
+          <p class="fragment">Styled HTML elements</p>
+          <p class="fragment">JavaScript for interaction</p>
+        </section>
+
+        <section>
+          <h1><b class="orange">We will try some of this in lab and practical!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Any questions about web page layout?</b></h1>
+        </section>
+
+      </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.min.js"></script>
+
+      <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: true,
+
+          theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+          transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+          // Optional libraries used to extend on reveal.js
+          dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }
+          ]
+        });
+
+      </script>
+
+    </div>
+
+  </body>
+</html>
