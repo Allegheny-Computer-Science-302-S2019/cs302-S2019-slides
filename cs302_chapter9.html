@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Computer Science 103: Web Development</title>
+
+    <meta name="description" content="Teaching Slides for Computer Science 103">
+    <meta name="author" content="Gregory M. Kapfhammer">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night-gkapfham.css" id="theme">
+
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Install Font Awesome and the Google Web fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet" type="text/css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-background-transition="none" data-background="https://farm4.static.flickr.com/3745/13579866943_c3e8493401_z.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>Computer Science 103:</h1>
+          <h2>Web Development</h2>
+          <p>Gregory M. Kapfhammer</p>
+          <br /><small><a title="PangongTso_54" href="https://flickr.com/photos/krsaurabh/13579866943">flickr photo</a> by <a href="https://flickr.com/people/krsaurabh">SaurabhChatterjee</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons (BY-NC-ND) license</a> </small>
+        </section>
+
+        <section data-background-transition="none" data-background="https://farm4.static.flickr.com/3745/13579866943_c3e8493401_z.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>Keep in Touch!</h1>
+          <p class="fragment">Course Web Site</p>
+          <p class="fragment">Office Hours</p>
+          <p class="fragment">Teaching Assistants</p>
+          <p class="fragment">Slack Communication</p>
+          <p class="fragment">Relevant Tweets</p>
+          <p class="fragment">Email Communication</p>
+          <br /><small><a title="PangongTso_54" href="https://flickr.com/photos/krsaurabh/13579866943">flickr photo</a> by <a href="https://flickr.com/people/krsaurabh">SaurabhChatterjee</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons (BY-NC-ND) license</a> </small>
+        </section>
+
+        <section>
+          <h1>Color Scheme</h1>
+          <p class="fragment"><b class="orange">Key Concept</b></p>
+          <p class="fragment"><b class="purple">Corresponding Diagram</b></p>
+          <p class="fragment"><b class="green">In-Class Discussion</b></p>
+          <p class="fragment"><b class="red">In-Class Activity</b></p>
+          <p class="fragment"><b class="blue">Details in the Textbook</b></p>
+        </section>
+
+        <section>
+          <h1><b class="orange">Document Object Model</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">DOM</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Intermediate Representation</b></h1>
+        </section>
+
+        <section data-background-transition="none" data-background="https://farm1.static.flickr.com/92/268614531_c546faba1e_b.jpg" style="">
+        </section>
+
+        <section data-background-transition="none" data-background="https://farm1.static.flickr.com/92/268614531_c546faba1e_b.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1 id="primitive_data_types">DOM Trees</h1>
+          <p class="fragment">A DOM tree is a set of nodes</p>
+          <p class="fragment">It stores data elements hierarchically</p>
+          <p class="fragment">It contains a root DOM node</p>
+          <p class="fragment">The nodes have a parent-child relationship</p>
+          <p class="fragment">It represents an entire HTML document</p>
+          <p class="fragment"><b class="green">What does this look like in memory?</b></p>
+          <br /><small><a title="no dogs allowed" href="https://flickr.com/photos/derekdiamond/268614531">flickr photo</a> shared by <a href="https://flickr.com/people/derekdiamond">Derek Severson</a> under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons ( BY-NC-ND ) license</a> </small>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Figures 9.1 and 9.2</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Why do we represent a web site this way?</b></h1>
+        </section>
+
+        <section data-background-transition="none" data-background="https://farm1.static.flickr.com/92/268614531_c546faba1e_b.jpg" style="">
+        </section>
+
+        <section data-background-transition="none" data-background="https://farm1.static.flickr.com/92/268614531_c546faba1e_b.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1 id="methods">DOM Methods</h1>
+          <p class="fragment">Selection methods</p>
+          <p class="fragment">Family manipulation methods</p>
+          <p class="fragment">Event methods</p>
+          <p class="fragment"><b class="green">Why do we need these methods?</b></p>
+          <p class="fragment"><b class="green">What are the benefits of these methods?</b></p>
+          <br /><small><a title="no dogs allowed" href="https://flickr.com/photos/derekdiamond/268614531">flickr photo</a> shared by <a href="https://flickr.com/people/derekdiamond">Derek Severson</a> under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons ( BY-NC-ND ) license</a> </small>
+        </section>
+
+        <section>
+          <h1><b class="orange">Selection methods</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Run a query on a DOM tree</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Use the <code>getElement</code> method</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Figure 9.3 for an example</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Figure 9.4 for an example</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">How does this relate to CSS?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Summary: access components of a page</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">But, what else is important?</b></h1>
+        </section>
+
+        <section data-background-transition="none" data-background="https://farm1.static.flickr.com/92/268614531_c546faba1e_b.jpg" style="">
+        </section>
+
+        <section data-background-transition="none" data-background="https://farm1.static.flickr.com/92/268614531_c546faba1e_b.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1 id="modify">Modifying DOM Trees</h1>
+          <p class="fragment">Change an element's style</p>
+          <p class="fragment">Change an element's content</p>
+          <p class="fragment">Create new DOM elements</p>
+          <p class="fragment"><b class="green">What are the benefits of this approach?</b></p>
+          <br /><small><a title="no dogs allowed" href="https://flickr.com/photos/derekdiamond/268614531">flickr photo</a> shared by <a href="https://flickr.com/people/derekdiamond">Derek Severson</a> under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons ( BY-NC-ND ) license</a> </small>
+        </section>
+
+        <section>
+          <h1><b class="orange">Select and then modify</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">But, be careful with timing!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Query and modify after loading</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Event-driven programming</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Callbacks and event properties</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Event listeners</b></h1>
+        </section>
+
+        <section>
+          <h1>Event Types</h1>
+          <p class="fragment">Mouse</p>
+          <p class="fragment">Keyboard</p>
+          <p class="fragment">Touch</p>
+          <p class="fragment">Form</p>
+          <p class="fragment">Frame</p>
+          <p class="fragment"><b class="orange">Sense and respond to an event</b></p>
+        </section>
+
+        <section>
+          <h1><b class="green">Practical application of events?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Form evaluation!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="red">Study the forms on my web site</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">You can learn more in CMPSC 100!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">You can learn more in CMPSC 101!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Any further questions about JavaScript programming?</b></h1>
+        </section>
+
+      </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.min.js"></script>
+
+      <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: true,
+
+          theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+          transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+          // Optional libraries used to extend on reveal.js
+          dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }
+          ]
+        });
+
+      </script>
+
+    </div>
+
+  </body>
+</html>

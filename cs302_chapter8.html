@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Computer Science 103: Web Development</title>
+
+    <meta name="description" content="Teaching Slides for Computer Science 103">
+    <meta name="author" content="Gregory M. Kapfhammer">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night-gkapfham.css" id="theme">
+
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Install Font Awesome and the Google Web fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet" type="text/css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-background-transition="none" data-background="https://farm4.static.flickr.com/3745/13579866943_c3e8493401_z.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>Computer Science 103:</h1>
+          <h2>Web Development</h2>
+          <p>Gregory M. Kapfhammer</p>
+          <br /><small><a title="PangongTso_54" href="https://flickr.com/photos/krsaurabh/13579866943">flickr photo</a> by <a href="https://flickr.com/people/krsaurabh">SaurabhChatterjee</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons (BY-NC-ND) license</a> </small>
+        </section>
+
+        <section data-background-transition="none" data-background="https://farm4.static.flickr.com/3745/13579866943_c3e8493401_z.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>Keep in Touch!</h1>
+          <p class="fragment">Course Web Site</p>
+          <p class="fragment">Office Hours</p>
+          <p class="fragment">Teaching Assistants</p>
+          <p class="fragment">Slack Communication</p>
+          <p class="fragment">Relevant Tweets</p>
+          <p class="fragment">Email Communication</p>
+          <br /><small><a title="PangongTso_54" href="https://flickr.com/photos/krsaurabh/13579866943">flickr photo</a> by <a href="https://flickr.com/people/krsaurabh">SaurabhChatterjee</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons (BY-NC-ND) license</a> </small>
+        </section>
+
+        <section>
+          <h1>Color Scheme</h1>
+          <p class="fragment"><b class="orange">Key Concept</b></p>
+          <p class="fragment"><b class="purple">Corresponding Diagram</b></p>
+          <p class="fragment"><b class="green">In-Class Discussion</b></p>
+          <p class="fragment"><b class="red">In-Class Activity</b></p>
+          <p class="fragment"><b class="blue">Details in the Textbook</b></p>
+        </section>
+
+        <section>
+          <h1><b class="orange">JavaScript</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Object-oriented, dynamically typed scripting language</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">What do those words mean?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Primarily used for client-side scripting</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Downloading and executing a client-side JavaScript</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Benefits of using JavaScript?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Drawbacks of using JavaScript?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Differences with prior material?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">You've seen examples throughout the semester!</b></h1>
+        </section>
+
+        <section>
+          <h1>JavaScript's Location</h1>
+          <p class="fragment">Inline</p>
+          <p class="fragment">Embedded</p>
+          <p class="fragment">External</p>
+          <p class="fragment"><b class="orange">Alternatives similar to CSS programming!</b></p>
+        </section>
+
+        <section>
+          <h1><b class="green">How does JavaScript influence accessibility?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Variables and data types</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Figure 8.7 for an example</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Primitive data types</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Reference data types</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See page 339 for an example</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">How do I make the JavaScript produce output?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange"><code>document.write()</code></b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange"><code>alert()</code></b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Conditional Logic</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Allows the program to make decisions</b></h1>
+        </section>
+
+        <section>
+          <h1 id="if_statements">If Statements</h1>
+          <p class="fragment"><b class="orange">Allows us to implement conditional logic</b></p>
+          <p class="fragment"><code>if (age &gt; 50)</code></p>
+          <p class="fragment"><code>if (hoursOfDay &gt; 4 &amp;&amp; hoursOfDay &lt; 12)</code></p>
+          <p class="fragment"><b class="orange">There is an else component for a backup plan</b></p>
+          <p class="fragment"><b class="green">Any questions about the use of this construct?</b></p>
+          <p class="fragment"><b class="blue">Review Section 8.5 for more details</b></p>
+        </section>
+
+        <section>
+          <h1><b class="orange">Get ready for a strange term! 😼 </b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Truthy and falsy</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Everything in JavaScript has an inherent boolean!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Falsy values include <code>false</code>, <code>null</code>, and <code>""</code></b></h1>
+        </section>
+
+        <section>
+          <h1>Iteration Constructs</h1>
+          <p class="fragment"><b class="orange">Perform some action repeatedly</b></p>
+          <p class="fragment">Looping constructs: <code>for</code>, <code>while</code>, <code>do-while</code></p>
+          <p class="fragment"><b class="green">What are the similarities and differences?</b></p>
+          <p class="fragment"><b class="green">When would you decide to use a certain construct?</b></p>
+          <p class="fragment">Loops can tax the resources of a computer</p>
+        </section>
+
+        <section>
+          <h1>Arrays</h1>
+          <p class="fragment">Arrays allow you to store a fixed number of variables</p>
+          <p class="fragment">All values in the array are normally of the same type</p>
+          <p class="fragment">Indexing an array can lead to exception cases</p>
+          <p class="fragment"><b class="green">Any questions about using arrays in JavaScript?</b></p>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Figure 8.13 for more details!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">One-dimensional arrays</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Two-dimensional arrays</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Indexing an array</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange"><code>years[i]</code></b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange"><code>month[0][3]</code></b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Declaring and referencing objects</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Listing 8.10 for an example</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Declaring a function</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Invoking a function</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See the textbook for additional details</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Scope in JavaScript</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Local versus global scope</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="red">Talk with two or three other students</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="red">Prepare one question about JavaScript</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="red">Post your question on #general in Slack</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">We will try some of this in assignments!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">You can learn more in CMPSC 100!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Any questions about JavaScript programming?</b></h1>
+        </section>
+
+      </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.min.js"></script>
+
+      <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: true,
+
+          theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+          transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+          // Optional libraries used to extend on reveal.js
+          dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }
+          ]
+        });
+
+      </script>
+
+    </div>
+
+  </body>
+</html>
